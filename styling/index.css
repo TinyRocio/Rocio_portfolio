@@ -1,10 +1,16 @@
-body {
-  background: azure;
-  font-family: "Merienda", cursive;
-}
-
 /*
+font-families :
 'Merienda', cursive;
 'Patrick Hand', cursive;
 'Permanent Marker', cursive;
 */
+
+body {
+  margin-top: 50px;
+}
+
+.hero {
+  text-align: center;
+  background: azure;
+  font-size: 24px;
+}
