@@ -4,13 +4,46 @@ font-families :
 'Patrick Hand', cursive;
 'Permanent Marker', cursive;
 */
-
+:root {
+  --box-shadow: 4px 5px 12px rgba(0, 0, 0, 0.3);
+}
 body {
   margin-top: 50px;
-  background: azure;
+  background-image: linear-gradient(
+    to bottom right,
+    #05828e,
+    #e7eaef,
+    #9ba8b8,
+    #05828e
+  );
 }
 
 .hero {
   text-align: center;
   font-size: 24px;
+}
+
+.project {
+  margin-top: 30px;
+  border: 1px inset #007a79;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+
+.row {
+  margin: 10px auto;
+}
+
+@media (max-width: 992px) {
+  .hero h1 {
+    font-size: 43px;
+  }
+
+  .hero p {
+    font-size: 32px;
+  }
+
+  .project-description {
+    text-align: initial;
+  }
 }
