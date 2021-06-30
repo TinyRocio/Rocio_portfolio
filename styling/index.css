@@ -7,10 +7,10 @@ font-families :
 
 body {
   margin-top: 50px;
+  background: azure;
 }
 
 .hero {
   text-align: center;
-  background: azure;
   font-size: 24px;
 }
