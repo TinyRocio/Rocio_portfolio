@@ -1,9 +1,8 @@
 /*
 font-families :
-'Merienda', cursive;
-'Patrick Hand', cursive;
 'Permanent Marker', cursive;
 */
+
 :root {
   --box-shadow: 4px 5px 12px rgba(0, 0, 0, 0.3);
 }
@@ -22,6 +21,7 @@ body {
 .hero {
   text-align: center;
   font-size: 24px;
+  font-family: "Vollkorn", serif;
 }
 
 .project {
@@ -36,17 +36,31 @@ body {
   box-shadow: var(--box-shadow);
 }
 
+.project-description h2,
+a {
+  font-family: "Merienda", cursive;
+}
+
+.project-description p {
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+}
+
 .row {
   margin: 10px auto;
 }
 
 @media (max-width: 992px) {
   .hero h1 {
-    font-size: 43px;
+    font-size: 45px;
+  }
+
+  .hero h2 {
+    font-size: 25px;
   }
 
   .hero p {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .project-description {
