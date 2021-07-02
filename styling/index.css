@@ -7,8 +7,9 @@ font-families :
 :root {
   --box-shadow: 4px 5px 12px rgba(0, 0, 0, 0.3);
 }
+
 body {
-  margin-top: 50px;
+  margin-top: 90px;
   background-image: linear-gradient(
     to bottom right,
     #05828e,
@@ -25,7 +26,12 @@ body {
 
 .project {
   margin-top: 30px;
-  border: 1px inset #007a79;
+  border: 1px inset rgb(236, 236, 236);
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+
+.project-image {
   border-radius: 5px;
   box-shadow: var(--box-shadow);
 }
