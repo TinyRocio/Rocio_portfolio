@@ -117,6 +117,7 @@ footer p {
 
 footer .footer-button {
   font-size: 24px;
+  margin-top: 20px;
 }
 
 footer .social-media-links {
@@ -126,18 +127,41 @@ footer .social-media-links {
 
 @media (max-width: 992px) {
   .hero h1 {
-    font-size: 45px;
+    font-size: 47px;
   }
 
   .hero h2 {
-    font-size: 25px;
+    font-size: 31px;
   }
 
   .hero p {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .project-description {
     text-align: initial;
+  }
+
+  .project-description p {
+    font-size: 18px;
+  }
+
+  .about-description img {
+    margin-top: 34px;
+    margin-left: 22px;
+  }
+
+  footer p {
+    font-size: 24px;
+    margin: 0 auto;
+  }
+
+  footer .footer-button {
+    margin-top: 13px;
+  }
+
+  footer .social-media-links {
+    font-size: 24px;
+    margin-top: 15px;
   }
 }
