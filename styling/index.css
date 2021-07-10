@@ -148,7 +148,11 @@ footer .social-media-links {
 
   .about-description img {
     margin-top: 34px;
-    margin-left: 22px;
+    margin-left: 27px;
+  }
+
+  .project-button {
+    margin-left: 59px;
   }
 
   footer p {
