@@ -198,6 +198,20 @@ footer .social-media-links a:hover {
   transition: ease-in, 200ms;
 }
 
+.coded-by {
+  font-size: 18px;
+}
+
+.coded-by a {
+  font-size: 16px;
+  color: #2a004a;
+}
+
+.coded-by a:hover {
+  color: blueviolet;
+  transition: ease-in, 200ms;
+}
+
 @media (max-width: 992px) {
   .hero h1 {
     font-size: 47px;
